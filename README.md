@@ -2,14 +2,14 @@
 
 Este projeto é uma aplicação React que permite buscar e visualizar informações básicas de um perfil do GitHub, como **nome**, **avatar** e **bio**.
 
-🔗 **Acesse o projeto online:** [GitHub Pages](https://seu-usuario.github.io/github-perfil-viewer)
+🔗 **Acesse o projeto online:** [Vercel](https://github-profile-viewer-smoky-sigma.vercel.app)
 
 ## 🚀 Tecnologias utilizadas
 
 - React
 - Tailwind CSS
 - Fetch API
-- GitHub Pages (para deploy)
+- Vercel (para deploy)
 
 ## 💡 Funcionalidades
 
@@ -26,7 +26,7 @@ Este projeto é uma aplicação React que permite buscar e visualizar informaç�
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/github-perfil-viewer.git
+   git clone https://github.com/endriusssantos/github-profile-viewer.git
 
 2. Acesse a pasta do projeto:
    ```bash

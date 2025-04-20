@@ -37,7 +37,7 @@ export function SearchBar() {
           onClick={handleSearch}
           className="absolute right-0 bg-[#005CFF] w-[62px] h-[62px] flex items-center justify-center rounded-xl"
         >
-          <img src="../src/assets/images/search-icon.svg" alt="search icon" />
+          <img src="./src/assets/images/search-icon.svg" alt="search icon" />
         </button>
       </div>
 
