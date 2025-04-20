@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 min-h-screen font-sans bg-[#1F1F1F];
+  background-image: 
+  radial-gradient(circle at -10% 70%, #005CFF, #00000000 20%),
+  radial-gradient(circle at 90% 20%, #005CFF, #00000000 20%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 71px;
+  width: 279px;
+  height: 275px;
+  background-image: radial-gradient(#272727 4px, transparent 4px);
+  background-size: 20px 20px;
+  z-index: -1;
+  pointer-events: none;
+}
