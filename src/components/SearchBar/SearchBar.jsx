@@ -3,6 +3,7 @@ import { UserCard } from "../UserCard/UserCard";
 import { ErrorMessage } from "../ErrorMessage/ErrorMessage";
 import { LoadingSpinner } from "../LoadingSpinner/LoadingSpinner";
 import { useGitHubUser } from "../../hooks/useGitHubUser";
+import searchIcon from "../../assets/images/search-icon.svg";
 
 export function SearchBar() {
   const [searchValue, setSearchValue] = useState("");
@@ -37,7 +38,7 @@ export function SearchBar() {
           onClick={handleSearch}
           className="absolute right-0 bg-[#005CFF] w-[62px] h-[62px] flex items-center justify-center rounded-xl"
         >
-          <img src="./src/assets/images/search-icon.svg" alt="search icon" />
+          <img src={searchIcon} alt="search icon" />
         </button>
       </div>
 
