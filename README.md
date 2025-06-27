@@ -30,7 +30,7 @@ Este projeto é uma aplicação React que permite buscar e visualizar informaç�
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd github-perfil-viewer
+   cd github-profile-viewer
 
 3. Instale as dependências:
    ```bash
