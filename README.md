@@ -1,4 +1,4 @@
-# GitHub Perfil Viewer
+# GitHub Profile Viewer
 
 Este projeto é uma aplicação React que permite buscar e visualizar informações básicas de um perfil do GitHub, como **nome**, **avatar** e **bio**.
 
